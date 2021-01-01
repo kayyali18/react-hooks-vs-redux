@@ -7,6 +7,7 @@ import "./Products.css";
 class ProductsPage extends Component {
   render() {
     return (
+      // Using Context.Consumer works for functional components as well
       <ShopContext.Consumer>
         {(context) => (
           <React.Fragment>
